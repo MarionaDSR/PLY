@@ -38,6 +38,9 @@ function scene:create( event )
 
 	local buttonText = display.newText(sceneGroup, PLAY_AGAIN, PLAY_X, PLAY_Y, BOLD_FONT, PLAY_TEXT_SIZE)
 	buttonText:setFillColor(getColor(PLAY_TEXT_COLOR))
+
+	local footerText = display.newText(sceneGroup, END_FOOTER, X, H *0.95, FONT, PLAY_TEXT_SIZE/2)
+	footerText:setFillColor(getColor(PLAY_TEXT_COLOR))
 end
 
 function scene:show( event )

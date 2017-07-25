@@ -12,4 +12,6 @@ BOOOM = "BOOOOOM"
 
 END_TITLE = "Registro de datos"
 
-PLAY_AGAIN = "Volver a empezar"
+PLAY_AGAIN = "¡Otra vez!"
+
+END_FOOTER = "Imágenes de https://icons8.com"
